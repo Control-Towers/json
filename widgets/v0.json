@@ -1,0 +1,109 @@
+    {
+        "resultCode": 1,
+        "message": "Success",
+        "data": {
+            "key": "default_satu",
+            "title": "Pengiriman",
+            "pageNo": 1,
+            "widgets": [
+                {
+                    "key": "widget_dua",
+                    "title": "Pengiriman",
+                    "params": [
+                        {
+                            "key": "cnt_trip",
+                            "type": "COUNT",
+                            "title": "Total Trip",
+                            "unit": "NUMBER",
+                            "availableSeries": [
+                                "WEEKLY",
+                                "MONTHLY",
+                                "QUARTERLY",
+                                "SEMESTERLY",
+                                "ANUALLY"
+                            ],
+                            "availableFilters": [
+                                {
+                                    "key": "status",
+                                    "options": [
+                                        "DELIVERY",
+                                        "BILLED",
+                                        "PREPARE"
+                                    ]
+                                },
+                                {
+                                    "key": "dateFrom"
+                                },
+                                {
+                                    "key": "dateTo"
+                                }
+                            ],
+                            "availableSorts": [
+                                "FIRST",
+                                "LAST"
+                            ],
+                            "allowLimit": true,
+                            "seriesType": "QUARTERLY",
+                            "filter": null,
+                            "sortBy": null,
+                            "limit": null
+                        },
+                        {
+                            "key": "var_coba_dua",
+                            "type": "JSON",
+                            "title": "Variable Query Dua",
+                            "unit": "HOUR",
+                            "availableSeries": null,
+                            "availableFilters": null,
+                            "availableSorts": null,
+                            "allowLimit": true,
+                            "seriesType": "QUARTERLY",
+                            "filter": null,
+                            "sortBy": null,
+                            "limit": null
+                        }
+                    ],
+                    "typeInfo": "LINE_CHART",
+                    "order": 1,
+                    "width": 10,
+                    "height": 20,
+                    "x": 10,
+                    "y": 10,
+                    "maxWidth": 20,
+                    "minWidth": 10,
+                    "maxHeight": 20,
+                    "minHeight": 10
+                },
+                {
+                    "key": "widget_satu",
+                    "title": "Penugasan",
+                    "params": [
+                        {
+                            "key": "var_coba_satu",
+                            "type": "JSON",
+                            "title": "Variable Query Satu",
+                            "unit": "HOUR",
+                            "availableSeries": null,
+                            "availableFilters": null,
+                            "availableSorts": null,
+                            "allowLimit": true,
+                            "seriesType": "QUARTERLY",
+                            "filter": null,
+                            "sortBy": null,
+                            "limit": null
+                        }
+                    ],
+                    "typeInfo": "PIE_CHART",
+                    "order": 1,
+                    "width": 10,
+                    "height": 20,
+                    "x": 10,
+                    "y": 10,
+                    "maxWidth": 20,
+                    "minWidth": 10,
+                    "maxHeight": 20,
+                    "minHeight": 10
+                }
+            ]
+        }
+    }
